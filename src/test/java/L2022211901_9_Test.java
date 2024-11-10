@@ -19,7 +19,7 @@ public class L2022211901_9_Test {
     @Test
     public void testPossibleBipartition_Example1() {
         Solution9 solution = new Solution9();
-        int n = 4;
+        int n = 3;
         int[][] dislikes = {{1,2},{1,3},{2,4}};
         assertTrue(solution.possibleBipartition(n, dislikes));
     }
